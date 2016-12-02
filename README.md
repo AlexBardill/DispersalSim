@@ -1,4 +1,4 @@
-# PopEcoSim
+# DispersalSim
 A population ecology simulation I wrote to look at how the permeability ('stickyness') of a landscape affects individuals' investment in dispersal vs fecundity. 
 
 The model has birth (and movement) and death events happening in series.  Individuals have only one ‘variable’ which is the investment in fecundity (F, limited to the range 0-1) with the remainder invested in dispersal (D = 1 – F).  Individuals inherit this strategy from their parent with a probability of mutation (1% here).
